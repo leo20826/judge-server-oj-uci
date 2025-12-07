@@ -130,7 +130,7 @@ Several environment variables can be specified to control the compilation of the
 * `DMOJ_TARGET_ARCH`; use it to override the default architecture specified for compiling the sandbox (via `-march`).
    Usually this is `native`, but will not be specified on ARM unless `DMOJ_TARGET_ARCH` is set (a generic, slow build will be compiled instead).
 
-### With Docker
+### With Docker (Recomendado)
 
 We maintain Docker images with all runtimes we support in the [runtimes-docker](https://github.com/DMOJ/runtimes-docker) project.
 
